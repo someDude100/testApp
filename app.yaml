@@ -1,0 +1,9 @@
+application: studyappengine
+version: 1
+runtime: php
+api_version: 1
+threadsafe: yes
+
+
+- url: .*
+  script: main.php
