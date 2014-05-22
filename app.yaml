@@ -7,11 +7,10 @@ threadsafe: yes
 handlers:
 # Serve php scripts.
 - url: /
-  script: home.php
+  script: main.php
 
 - url: /(.+\.php)$
   script: \1
-  
   
 # Serve images as static resources.
 - url: /(.+\.(gif|png|jpg))$
